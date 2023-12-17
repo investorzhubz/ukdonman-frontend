@@ -26,7 +26,7 @@ function Create() {
         setError(false)
         setSucceed(false)
         console.log(name)
-        axios.post('http://localhost:5000/api/license/create',{
+        axios.post('https://donbackend.onrender.com/api/license/create',{
             name:name,
             dateOfBirth:dob,
             gender:gender,

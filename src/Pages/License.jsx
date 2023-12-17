@@ -14,7 +14,7 @@ function License() {
     console.log(id)
 
     useEffect(()=>{
-        axios.post('http://localhost:5000/api/license/get',{
+        axios.post('https://donbackend.onrender.com/api/license/get',{
             licenseNumber:id
         }).then(response=>{
             setData(response.data)
