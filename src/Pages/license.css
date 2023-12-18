@@ -441,10 +441,12 @@ p{
     }
     .registerheader p{
         font-size: 15px;
+        margin-right: 1rem;
     }
     .registerheader{
         justify-content: space-between;
     }
+    .registerheader 
 .details{
     overflow: hidden;
 }
