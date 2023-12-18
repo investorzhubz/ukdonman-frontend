@@ -327,6 +327,10 @@ p{
         font-family: "nta", Arial, sans-serif;
     
     }
+    .licencedetails h2{
+        text-transform: uppercase;
+
+    }
     .feedback{
         margin-left: 1rem;
         margin-right: 1rem;
