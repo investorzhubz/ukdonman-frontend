@@ -10,7 +10,7 @@ function App() {
     <div  className="App">
       <Routes>
         <Route path='/create' element={<Create />} />
-        <Route path='/driving-record/licence-number' element={<GetLicense />} />
+        <Route path='/licence-number' element={<GetLicense />} />
         <Route path='/driving-record/:id' element={<License />} />
       </Routes>
 
